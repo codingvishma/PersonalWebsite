@@ -232,6 +232,39 @@ img {
   color: #0023bd;
 }
 
+/* Skills section */
+.profile-section {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1927;
+  padding: 2rem 2rem;
+}
+
+.profile-section-header > h3 {
+  font-size: 20px;
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid black;
+}
+.profile-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.profile {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Projects section */
 .project-title {
   font-size: 1.96rem;
